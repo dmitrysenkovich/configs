@@ -1,0 +1,24 @@
+[user]
+    name = Dmitry Senkovich
+    email = dmitrysenkovich@gmail.com
+[github]
+    user = dmitry
+[core]
+    autocrlf = input
+	editor = subl -w
+[alias]
+    lg = log --graph --all
+    st = status
+    llg = log --graph --all
+[merge]
+    tool = vimdiff
+[color]
+    ui = auto
+[format]
+    pretty = "%C(yellow)%h%Creset%C(magenta)%d%Creset %C(cyan)(%ar) %Cgreen<%an>\n%s\n"
+[push]
+    default = simple
+[branch]
+    autosetuprebase = always
+[gui]
+[gui]
